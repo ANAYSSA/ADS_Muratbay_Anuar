@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-int printnumber(int n){
-    if(n==0){return 0;}
-    cout << n << " ";
-    return printnumber(n-1);
+void printnumber(int n){
+    if(n!=0){cout << n << " ";
+        printnumber(n-1);}
+
 }
 int main() {
     int a;
