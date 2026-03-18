@@ -7,4 +7,6 @@ include_directories(.)
 
 add_executable(ADS_Muratbay_Anuar
         "Assignment 1/2_task.cpp"
-        "Assignment 1/first_task.h")
+        "Assignment 1/first_task.h"
+        "Assignment 1/1_task.cpp"
+        "Assignment 1/2_task.cpp")
