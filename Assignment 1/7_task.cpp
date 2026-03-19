@@ -8,7 +8,6 @@ int countd(int a) {
 int main() {
     int a;
     cin >> a;
-
     cout << countd(a);
 
 }
