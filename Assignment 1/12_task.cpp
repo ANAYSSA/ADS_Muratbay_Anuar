@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
-int arrsum(int arr[], int n) {
+int bigarr(int arr[], int n) {
     if (n == 0)
         return 0;
-
-    return arr[n - 1] + arrsum(arr, n - 1);
+    if (arr[n-1] > arr[n-2])
+        return arr[n-1];
+    return bigarr(arr, n-1);
 }
 int main() {
     int n;
@@ -13,6 +14,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-    cout << arrsum(arr, n);
+    cout << bigarr(arr, n);
     return 0;
 }
