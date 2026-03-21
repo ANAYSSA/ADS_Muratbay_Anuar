@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
-int find(int arr[] , int n,int a) {
+int findCount(int arr[] , int n,int a) {
 if (n==0) return 0;
     if (a == arr[n-1])
-    {return 1 + find(arr, n-1,a);}
-    else {return find(arr,n-1,a);}
+    {return 1 + findCount(arr, n-1,a);}
+    else {return findCount(arr,n-1,a);}
 
 }
 
@@ -17,7 +17,7 @@ for (int i = 0; i < n; i++) {
     cin >> ar[i];
 }
     cin >> target;
-cout << find(ar, n,target) << endl;
+cout << findCount(ar, n,target) << endl;
 
 
 }
