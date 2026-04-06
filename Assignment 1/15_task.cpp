@@ -18,3 +18,5 @@ int main() {
     else
         cout << "Not sorted";
 }
+//Time complexity O(n)
+//Space complexityO(n)

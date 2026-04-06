@@ -12,3 +12,6 @@ int a;
 return 0;
 
 }
+
+//Time complexity O(n)
+//Space complexityO(n)

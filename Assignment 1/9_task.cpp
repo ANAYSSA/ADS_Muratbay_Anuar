@@ -11,3 +11,6 @@ int main() {
     cin >> a;
     cout << findF(a);
 }
+
+//Time complexity O(2^n)
+//Space complexityO(n)

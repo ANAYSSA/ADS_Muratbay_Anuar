@@ -11,3 +11,6 @@ int main() {
     cout << power(a, b);
     return 0;
 }
+
+//Time complexity O(n)
+//Space complexityO(n)

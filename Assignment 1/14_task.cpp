@@ -21,3 +21,5 @@ int main() {
 
 
 }
+//Time complexity O(n)
+//Space complexityO(n)

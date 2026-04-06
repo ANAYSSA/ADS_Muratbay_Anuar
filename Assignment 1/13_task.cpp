@@ -21,3 +21,5 @@ cout << findCount(ar, n,target) << endl;
 
 
 }
+//Time complexity O(n)
+//Space complexityO(n)

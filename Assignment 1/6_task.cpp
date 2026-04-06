@@ -14,3 +14,6 @@ int main() {
 cout << sum(a);
 
 }
+
+//Time complexity O(n)
+//Space complexityO(n)

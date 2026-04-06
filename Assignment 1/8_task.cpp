@@ -13,3 +13,6 @@ int main() {
     rev(a);
 
 }
+
+//Time complexity O(n)
+//Space complexityO(n)

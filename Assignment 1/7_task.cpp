@@ -11,3 +11,6 @@ int main() {
     cout << countd(a);
 
 }
+
+//Time complexity O(n)
+//Space complexityO(n)
