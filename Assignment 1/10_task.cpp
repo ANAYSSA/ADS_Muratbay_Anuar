@@ -9,7 +9,6 @@ string poly(string s) {
 }
 
 int main () {
-
     string s;
     cin >> s;
     cout << poly(s);
