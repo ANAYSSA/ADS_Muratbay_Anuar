@@ -8,15 +8,14 @@ struct Node {
 
 void addToBeginning(Node*& head, int value) {
     Node* newNode = new Node;
-
     (*newNode).data = value;
     (*newNode).next = head;
     head = newNode;
 }
 void printList(Node* head) {
     while (head != nullptr) {
-        cout << head->data << " ";
-        head = head->next;
+        cout << (*head).data << " ";
+        head = (*head).next;
     }
 }
 int main () {
@@ -27,7 +26,6 @@ int main () {
 
     addToBeginning(head, a);
     addToBeginning(head, b);
-
     printList(head);
 
 }
