@@ -20,5 +20,5 @@ int main() {
 
     return 0;
 }
-//Time complexity O(n)
+//Time complexity O(logn)
 //Space complexityO(n)

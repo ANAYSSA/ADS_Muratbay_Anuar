@@ -26,7 +26,7 @@ void pushback(Node*& head,int value){
 
 void printList(Node* head){
     while(head!=nullptr){
-        cout<<(*head).data<<" ";
+        cout<<(*head).data<<" " << endl;
         head=(*head).next;
     }
 }
